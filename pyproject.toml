@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "dotenv>=0.9.9",
+    "langchain[openai]>=0.3.25",
+    "langgraph>=0.4.8",
     "load-dotenv>=0.1.0",
     "slack-bolt>=1.23.0",
 ]
